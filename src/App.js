@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import Header from './Header';
+import Technologies from './Technologies';
+import Footer from './Footer';
 
 const App = () => {
   return (
-    <div className="App">
-      <ul>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>js</li>
-        <li>react</li>
-      </ul>
-    </div>
+      <div>
+          <Header/>
+          <Technologies/>
+          <Footer/>
+      </div>
   );
 }
 
