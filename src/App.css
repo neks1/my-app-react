@@ -1,35 +1,17 @@
 .app-wrapper {
   display: grid;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   grid-template-areas:
   "header header header"
   "sidebar content content";
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 74px 1fr;
+  grid-template-columns: 3fr 9fr;
+  grid-gap: 10px;
 }
 
 img {
   display: block;
   height: auto;
   max-width: 100%;
-}
-
-.header {
-  background: green;
-  grid-area: header;
-}
-
-.header img {
-  width: 50px;
-}
-
-.sidebar {
-  grid-area: sidebar;
-  background: burlywood;
-}
-
-.content {
-  grid-area: content;
-  background: cornflowerblue;
 }

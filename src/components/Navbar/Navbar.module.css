@@ -1,0 +1,17 @@
+.sidebar {
+    grid-area: sidebar;
+    background: #13CE66;
+}
+
+.item {
+    color: #fff;
+}
+
+.item a {
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.item.active {
+    color: gold;
+}
