@@ -3,6 +3,7 @@
     background: #13CE66;
     grid-area: header;
     display: flex;
+    margin-bottom: 15px;
     padding: 0 16px;
 }
 

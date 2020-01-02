@@ -1,17 +1,15 @@
 .sidebar {
-    grid-area: sidebar;
     background: #13CE66;
+    grid-area: sidebar;
+    padding: 20px;
 }
-
-.item {
-    color: #fff;
-}
-
 .item a {
+    color: #fff;
     font-size: 34px;
     line-height: 44px;
+    text-decoration: none;
 }
 
-.item.active {
+.item a.active {
     color: gold;
 }

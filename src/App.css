@@ -1,3 +1,10 @@
+html,
+body,
+#root,
+.app-wrapper {
+  height: 100%;
+}
+
 .app-wrapper {
   display: grid;
   max-width: 1200px;
@@ -7,11 +14,14 @@
   "sidebar content content";
   grid-template-rows: 74px 1fr;
   grid-template-columns: 3fr 9fr;
-  grid-gap: 10px;
 }
 
 img {
   display: block;
   height: auto;
   max-width: 100%;
+}
+
+.app-wrapper-content {
+  grid-area: content;
 }
