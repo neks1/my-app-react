@@ -13,3 +13,28 @@
 .item a.active {
     color: gold;
 }
+
+.friends {
+    margin-top: 50px;
+}
+
+.friends h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.friendsWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friend {
+    color: #fff;
+}
+
+.friend img {
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+}
